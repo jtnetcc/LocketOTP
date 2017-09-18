@@ -1,0 +1,45 @@
+<block  wx:if="{{0 != tokens.length}}">
+  <view class="outer-bar">
+    <view class="inner-bar" animation="{{animationData}}"></view>
+  </view>
+  <scroll-view class="scroll-view" scroll-y enable-back-to-top>
+    <view class="token-wrp">
+      <block wx:for="{{tokens}}" wx:for-item="token" wx:for-index="t_index" wx:key="{{secret}}">
+        <view class="token-box" id="{{t_index}}" bindtap="tokenOperation">
+          <view class="token token-left">
+            <view class="issue">
+              <text wx:if="{{'' == token.issuer}}">未命名</text>
+              <text wx:else>{{token.issuer}}</text>
+            </view>
+            <view class="remark">
+              <text wx:if="{{'' == token.remark}}">点击设置备注信息</text>
+              <text wx:else>{{token.remark}}</text>
+            </view>
+          </view>
+          <view class="token token-right">
+            <view class="digit">
+              <text wx:for="{{token.secret}}" wx:for-item="secret" wx:for-index="secret-index" wx:key="*this">{{secret}}</text>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </scroll-view>
+  <view class="add-btn">
+    <button bindtap="showActionSheet">扫码配置</button>
+  </view>
+</block>
+<view class="none-tip" wx:else>
+  <view>
+    <i class="iconfont icon-dunpai"></i>
+  </view>
+  <view>
+    <text class="text-1">LocketOTP 身份验证器</text>
+  </view>
+  <view class="text-2-box">
+    <text class="text-2">您的账号在登录或其他操作时，可以通过它来进行二次校验，从而提高账户的安全性</text>
+  </view>
+  <view class="first-box">
+    <a class="first" bindtap="showActionSheet">扫码配置</a>
+  </view>
+</view>

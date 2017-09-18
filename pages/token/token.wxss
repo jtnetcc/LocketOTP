@@ -1,0 +1,155 @@
+.outer-bar {
+	height: 2px;
+	background: #f8f8f8;
+}
+
+.inner-bar {
+	width: 0;
+	height: 100%;
+	background: #3fbd54;
+}
+
+page {
+	background: #f9f9f9;
+}
+
+.icon-dunpai {
+	display: block;
+	margin-bottom: 15px;
+	color: #006fff;
+	font-size: 80px;
+}
+
+.icon-plus {
+	display: block;
+	margin-top: -5px;
+	color: #0f0f0f;
+	font-size: 25px;
+}
+
+.text-1 {
+	letter-spacing: 0;
+	font-size: 20px;
+}
+
+.text-2-box{
+  padding:0 20px;
+}
+
+.text-2 {
+	color: #8a8a8a;
+	letter-spacing: 0;
+	font-size: 15px;
+}
+
+.scroll-view {
+	height: 92vh;
+	background: #f9f9f9;
+}
+
+.section {
+	background: white;
+}
+
+.token-wrp {
+	padding-right: 4vw;
+	padding-left: 4vw;
+	border-top: solid 1px #e1e1e1;
+	border-bottom: solid 1px #e1e1e1;
+	background: #fff;
+	color: #000;
+	flex-direction: column;
+}
+
+.token-box {
+	height: 15vh;
+	border-bottom: 1px solid #e1e1e1;
+	flex-direction: row;
+}
+
+.token-box:last-child {
+	border-bottom: 0;
+}
+
+.token {
+	float: left;
+	width: 46vw;
+}
+
+.token-left {
+	position: relative;
+	top: 3vh;
+	left: 4vw;
+	overflow-x: scroll;
+}
+
+.issue {
+	font-size: 1.3rem;
+}
+
+.remark {
+	color: #929292;
+	font-size: .8rem;
+}
+
+.token-right {
+	position: relative;
+	top: 2vh;
+	right: 4vw;
+	float: right;
+}
+
+.digit {
+	text-align: right;
+	font-size: 2.6rem;
+}
+
+.digit text {
+	display: inline-block;
+	width: 1ch;
+	text-align: center;
+}
+
+.first {
+	display: inline-block;
+	padding: .5rem .75rem;
+	width: 80%;
+	border-radius: 0;
+	background: #006fff;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 0.2em;
+	font-size: 16px;
+}
+
+.first-box{
+  margin-top:20px
+}
+
+.none-tip {
+	margin-top: 20vh;
+	color: #222222;
+	text-align: center;
+	letter-spacing: .5rem;
+	font-size: 1.6rem;
+}
+
+.add-btn {
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+}
+
+.add-btn button {
+	padding-top: 0;
+	height: 50px;
+	border-top: 1px solid #f0f0f0;
+	border-radius: 0;
+	background: #fbfbfb;
+	color: #333;
+	letter-spacing: 0.1em;
+}
+
+button::after {
+	border: none;
+}

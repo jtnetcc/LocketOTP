@@ -1,0 +1,42 @@
+page {
+	background: #f9f9f9;
+}
+
+.input-box {
+	margin-top: 1rem;
+	padding-top: .6rem;
+	padding-right: 4vw;
+	padding-bottom: 1.2rem;
+	padding-left: 4vw;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	background: #fff;
+	color: #333;
+	line-height: 2rem;
+}
+
+.input-box text {
+	color: #000;
+	font-size: 19px;
+}
+
+.input-box input {
+	margin-top: .1rem;
+	border-bottom: 1px solid #e1e1e1;
+	color: #000;
+	font-size: 1rem;
+}
+
+.add-btn {
+	margin-top: 1rem;
+}
+
+.add-btn button {
+	width: 80%;
+	border-radius: 0;
+	background: #006fff;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 0.2em;
+	font-size: 16px;
+}

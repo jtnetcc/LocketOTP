@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/token/token",
+    "pages/edit/edit"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#016FFF",
+    "navigationBarTitleText": "LocketOTP 身份验证器",
+    "navigationBarTextStyle":"#fff",
+    "backgroundColor": "#F6F6F6"
+  },
+  "debug": false
+}
