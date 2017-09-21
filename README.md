@@ -1,6 +1,6 @@
 <div align="center">
 
-<p><img width="200" src="http://ww4.sinaimg.cn/large/0060lm7Tly1flt1eayjrxj306c05kmx4.jpg"></p>
+<p><img width="200" src="http://ww4.sinaimg.cn/large/0060lm7Tly1flt1g054kqj304203ka9v.jpg"></p>
 
 <h1>LocketOTP</h1>
 
