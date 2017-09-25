@@ -16,10 +16,18 @@
 
 </div>
 
-### Introduce
+## Introduce
 
 LocketOTP is a MFA authentication tool that runs at Wechat as a mini program. It's based on [RFC6238](https://tools.ietf.org/html/rfc6238).
 
-### Demo
+## Demo
 
-![demo](http://ww1.sinaimg.cn/large/0060lm7Tly1flt1l1k0c4j30rs0hw75w.jpg)
+![demo](https://camo.githubusercontent.com/eb825a0d58ab8091f8daa8a6c9f1ea78a9323440/687474703a2f2f7777312e73696e61696d672e636e2f6c617267652f303036306c6d37546c7931666c74316c316b3063346a333072733068773735772e6a7067)
+
+## License
+
+- The LocketOTP files are licensed under the MIT License:
+  - https://opensource.org/licenses/MIT
+
+- The LocketOTP documentation is licensed under the CC BY 4.0 License:
+  - https://creativecommons.org/licenses/by/4.0
